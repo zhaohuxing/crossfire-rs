@@ -1,6 +1,6 @@
 mod tx;
 pub use tx::*;
-mod rx;
+pub mod rx;
 pub use rx::*;
 mod bounded;
 pub use bounded::{bounded_future_both, bounded_tx_future_rx_blocking, bounded_tx_blocking_rx_future};
